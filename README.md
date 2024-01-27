@@ -14,7 +14,7 @@ SPA stands for Single Page Application. It’s a type of web application or webs
 The event loop is a key part of JavaScript’s concurrency model. It’s responsible for executing code, collecting and processing events, and executing queued sub-tasks.
 
 ### 4. What is the difference between export x and export default x? How do you import them differently?
-In JavaScript, export and export default are used to share code between different files, but they are used in slightly different ways1
+In JavaScript, export and export default are used to share code between different files, but they are used in slightly different ways.
 
 `export x`: This is known as a named export. You can have multiple named exports in a file. When you want to import functions or variables exported this way, you have to use the same name and enclose it in curly braces {}.
 `export default x`: This is a default export and you can only have one default export per file. When you import, you don’t need to use curly braces {} and you can name the import whatever you want.
@@ -61,7 +61,7 @@ function Greeting() {
 
 In this example, Greeting is a React component that returns a JSX element.
 
-Babel: Under the hood, a tool called Babel is used to transform JSX into regular JavaScript12. This is necessary because browsers can’t understand JSX12. Babel takes care of this transformation during the build process.So, when you’re writing a React component, you’re actually writing JavaScript, not HTML. The HTML-like syntax is just JSX, which gets transformed into JavaScript by Babel.
+Babel: Under the hood, a tool called Babel is used to transform JSX into regular JavaScript. This is necessary because browsers can’t understand JSX. Babel takes care of this transformation during the build process.So, when you’re writing a React component, you’re actually writing JavaScript, not HTML. The HTML-like syntax is just JSX, which gets transformed into JavaScript by Babel.
 
 ### 9. What is async/await? Bring an example
 `async`: This keyword is used before a function to indicate that the function will return a promise. Even if it returns a non-promise value, JavaScript automatically wraps it in a resolved promise.
